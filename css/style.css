@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    padding:0;
+    min-height:100vh;
+    background: linear-gradient(white, gray);
+}
+
+.wrapper {
+    margin: 100px auto;
+}
+
+.wrapper form {
+    margin: auto;
+}
+
+.label__date {
+    text-align: center;
+    margin:auto;
+    font-size:20px;
+}
+
+.input__container {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+#datePicker1, #datePicker2  {
+    padding: 10px;
+}
+
+.btn {
+    margin-left:10px;
+    padding: 7px 10px;
+    font-size:18px;
+}
